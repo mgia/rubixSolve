@@ -1,5 +1,7 @@
 # Rubix Cuber Solver / 解魔方大作业
-The Rubik's cube is a 3D combination puzzle invented by Ernő Rubik in 1974. This project creates an efficient step-wise implementation of a 3x3 Rubik's cube solver. 
+The Rubik's cube is a 3D combination puzzle invented by Ernő Rubik in 1974. This project creates an efficient step-wise implementation of a 3x3 Rubik's cube solver. A rubik's cube looks like this:
+
+![cube](https://raw.githubusercontent.com/mgia/rubix/master/images/complete.png)
 
 Strength of our solution:
 - Single write call for entire program
@@ -14,12 +16,22 @@ Next, the program uses various algorithms to solve the cube systemically from fi
 
 Moves are shown in the following picture:
 
+![moves](https://raw.githubusercontent.com/mgia/rubix/master/images/image.png)
 
 ## Algorithm
-Algorithms used 
-### First Layer
-### Second Layer
-### Final Layer
+Our solver breaks down the solution into various algorithms that will solve different parts of the cube. Typically, we solve the edges before solving the corners of each layer.
+
+This is our series of steps:
+- Solving the white cross
+![cube](https://raw.githubusercontent.com/mgia/rubix/master/images/white_cross.png)
+- Solving the white corners
+![cube](https://raw.githubusercontent.com/mgia/rubix/master/images/white_corners.png)
+- Solving the middle layer
+![cube](https://raw.githubusercontent.com/mgia/rubix/master/images/middle_layer.png)
+- Solving the yellow cross
+![cube](https://raw.githubusercontent.com/mgia/rubix/master/images/yellow_cross.png)
+- Solving the yellow corners
+- Rotating the yellow edges
 
 ## How to test
 
