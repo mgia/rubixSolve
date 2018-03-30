@@ -27,6 +27,8 @@ This is our series of steps:
 ![cube](https://raw.githubusercontent.com/mgia/rubix/master/images/yellow_cross.png)
 ![cube](https://raw.githubusercontent.com/mgia/rubix/master/images/complete.png)
 
+Reference:
+http://www.rossnazirullah.com/students/images/Rubiks.pdf
 
 ## How to test
 
